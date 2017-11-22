@@ -1,13 +1,13 @@
-# Linux: writing a bash script
+# Linux: Writing a Bash Script
 By typing commands on the Linux command line, you can give the server instructions to get some simple tasks done. A shell 
 script is a way to put together a series of instructions to make this easier. Shell scripts become even more powerful when 
 you add logic like `if` and `while` to automatically control how they behave as circumstances change.
 
-## What’s bash?
+## What’s Bash?
 Bash is the name of a command line interpreter, a program that makes sense of the Linux commands you enter at the command 
 prompt, or in your script.
 
-## What’s in a script?
+## What’s in a Script?
 A script is just a file. A basic script is made up of an introductory line that tells the server what to make of it, and one 
 or more instructions to execute. Here’s an example:
 
@@ -19,7 +19,7 @@ echo "Hi. I’m your new favorite bash script."
 The first line has special meaning, which we'll discuss below. The second line is just a Linux command, one you could type 
 out on the command line.
 
-## What’s a comment?
+## What’s a Comment?
 Comments are text you add to your script that you intend bash to ignore. Comments start with a pound sign, and are useful for 
 annotating your code so you and other users can understand it. To add a comment, type the `#` character, followed by any text 
 that's helpful you. Bash will ignore the `#` and everything after it.
@@ -34,7 +34,7 @@ Here’s the script from before, commented:
 echo "Hi. I’m your new favorite bash script." # 'echo' is a program that sends a string to the screen.
 ```
 
-## Executing a script
+## Executing a Script
 You can open a text editor, paste that example code and save the file, and you’ve got a script. Scripts are conventionally 
 named ending in '.sh,' so you might save that code as myscript.sh.
 
